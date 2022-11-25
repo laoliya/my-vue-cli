@@ -1,0 +1,37 @@
+{
+  "name": "my-vue-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "webpack serve --config ./build/dev",
+    "build": "webpack --config ./build/prod"
+  },
+  "keywords": [],
+  "author": "luffy",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/plugin-transform-runtime": "^7.19.6",
+    "@babel/preset-env": "^7.20.2",
+    "@vue/babel-preset-jsx": "^1.4.0",
+    "babel-loader": "^9.1.0",
+    "css-loader": "^6.7.2",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.0",
+    "progress-bar-webpack-plugin": "^2.1.0",
+    "sass": "^1.56.1",
+    "sass-loader": "^13.2.0",
+    "sass-resources-loader": "^2.2.5",
+    "style-loader": "^3.3.1",
+    "vue": "^2.6.14",
+    "vue-loader": "^15.9.8",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0",
+    "webpack-dev-server": "^4.11.1",
+    "webpack-merge": "^5.8.0"
+  }
+}
